@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b537b9-e3b3-4a29-b897-1225013d2f8f" name="Changes" comment="ejercicios">
-      <change afterPath="$PROJECT_DIR$/Clase4.py" afterDir="false" />
+    <list default="true" id="20b537b9-e3b3-4a29-b897-1225013d2f8f" name="Changes" comment="ejercicios de la clase 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clase4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Clase4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +44,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Clase1.executor": "Run",
-    "Python.Clase3.executor": "Run",
-    "Python.Clase4.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Clase1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Clase3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Clase4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,11 +79,20 @@
       <option name="project" value="LOCAL" />
       <updated>1742146901324</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ejercicios de la clase 4">
+      <option name="closed" value="true" />
+      <created>1742324037944</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742324037944</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ejercicios" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicios" />
+    <MESSAGE value="ejercicios de la clase 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicios de la clase 4" />
   </component>
 </project>
