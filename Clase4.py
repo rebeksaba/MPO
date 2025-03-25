@@ -157,7 +157,7 @@ print(resultado)
 #Crea variables para representar datos personales (nombre, edad, peso, altura). Calcula el
 #índice de masa corporal (IMC) sin usar bucles, y presenta un resumen detallado y formateado
 #de todos estos datos personales, incluyendo el IMC con dos decimales.
-
+#
 nombre, edad, peso, altura = "Rebeca", 31, 75, 1.65
 imc= peso / altura ** 2
 resultado10 = f"Nombre: {nombre}, Edad: {edad}, Peso: {peso}, Altura {altura} m, IMC: {imc:.2f}"
