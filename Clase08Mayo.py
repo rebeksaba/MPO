@@ -50,7 +50,74 @@ for i in range(evaluaciones):
         num_notas += 1
         suma_notas += nota
         nota = float(input("Introduce la siguiente nota: "))
-    print(f"Nota media evaluación {i}: {suma_notas/num_notas}")
+    print(f"Nota media evaluación {i+1}: {suma_notas/num_notas}")
         
 
+#Ejercicio 12 - Mayor y menor
+#Escribe un programa que puda al usuario una serie de números enteros y determine cuál es el mayor
+#y cuál es el  menor. El programa debe seguir pidiendo números hasta que el usuario ingrese un 0 al final,
+#imprime el mayor y el menor.
 
+mayor = float('-inf')
+menor = float('inf')
+numero_12 = int(input("Introduce un valor (0 para terminar): "))
+
+while numero_12 != 0:
+    if numero_12 > mayor:
+        mayor = numero_12
+    if numero_12 < menor:
+        menor = numero_12
+        
+    numero_12 = int(input("Introduce un valor (0 para terminar): "))
+
+print(f"Mayor: {mayor} Menor: {menor}")
+
+#Ejercicio 13 - Número de cifras
+#Escribe un programa que pida al usuario una serie de números enteros positivos hasta 
+#la introducción de un valor -1 para cada número debe contar cuántas cifras tiene. 
+#El programa debe imprimir la longitud de cada número. 
+#No podéis usar la función len() para contar las cifras ni convertir el número a cadena.
+
+numero_13 = int(input("Introduce un número ( -1 para finalizar): "))
+
+while numero_13 != -1:
+    cifras = 1
+    copia_num = numero_13
+    while numero_13 > 9:
+        cifras += 1
+        numero_13 //= 10
+
+    print(f"El número de dígitos de {copia_num} es {cifras}")
+    numero_13 = int(input("Introduce un número (-1 para acabar): "))
+
+#Ejercicio 15 - Banca online
+#Escribe un programa que simule una cuenta bancaria. 
+#El programa debe permitir al usuario realizar las siguientes operaciones:
+
+#1. Ingresar dinero
+#2. Retirar dinero
+#3. Consultar saldo
+#4. Salir
+#Inicializa el saldo en 0 y permite al usuario realizar operaciones hasta que decida salir.
+#'''
+
+saldo = 0
+opcion = -1
+
+while opcion != 4
+    print("Escoge una opción:")
+    print("1.Ingresar dinero:")
+    print("2.Retirar dinero:")
+    print("3.Consultar saldo:")
+    print("4.Salir:")
+
+    opcion = int(input())
+
+    if opcion == 1:
+        saldo += int(input("Qué cantidad deseas ingresar? "))
+    elif opcion == 2:
+        saldo -= int(input("Qué cantidad deseas retirar? "))
+    elif opcion == 3:
+        print (f"Tu saldo es {saldo}")
+    else:
+        print("Escoge una opción de la 1 a la 4")
