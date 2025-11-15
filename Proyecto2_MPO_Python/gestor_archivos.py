@@ -17,7 +17,7 @@ def listar_contenido():
         if not elementos:
             print("El directorio está vacío.")
         else:
-            print("\nCOntenido del directorio:")
+            print("\nContenido del directorio:")
             for elemento in elementos:
                 ruta = os.path.join(os.getcwd(), elemento)
                 if os.path.isdir(ruta):
